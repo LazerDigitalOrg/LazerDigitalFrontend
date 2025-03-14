@@ -167,7 +167,7 @@ section {
     height: 700px;
 }
 
-.section-about-company > h3 {
+.section-about-company > h3, .section-how-work > h3  {
     color: #fff;
     font-family: "Play", sans-serif;
     text-transform: uppercase;
@@ -182,4 +182,35 @@ section {
     font-size: 18px;
     line-height: 28px;
     margin: 20px;
+}
+
+.section-how-work {
+    background-image: url(https://laserkinetics.ru/img/how-we-work-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.work-blocks {
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-title {
+    font-size: 24px;
+    font-family: "Play", sans-serif;
+    color: #fff200;
+    margin: 0px;
+}
+
+.block-hint {
+    font-size: 18px;
+    font-family: "Commissioner", sans-serif;
+    color: #bfc7d1;
 }
