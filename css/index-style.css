@@ -6,6 +6,12 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
+    background-color: #090F18;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
 }
 
 .hint {
@@ -13,6 +19,10 @@ html, body {
     color: #bfc7d1;
     font-family: "Commissioner", sans-serif;
     text-transform: uppercase;
+}
+
+#yellow {
+    color: #fff200;
 }
 
 .yellow {
@@ -150,4 +160,26 @@ html, body {
 .blocks {
     border-left: 2px solid #242a34;
     padding: 10px 30px;
+}
+
+.section-about-company {
+    background-color: #090F18;
+    height: 700px;
+}
+
+.section-about-company > h3 {
+    color: #fff;
+    font-family: "Play", sans-serif;
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.section-about-company > p {
+    color: #bfc7d1;
+    font-family: "Commissioner", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px;
 }
