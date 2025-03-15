@@ -15,6 +15,20 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+#yellow, .yellow {
+  color: #fff200;
+}
+
+.section-header {
+  background-image: url("https://laserkinetics.ru/img/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  gap: 80px;
+  flex-direction: column;
+  height: 1000px;
+}
+
 .section-header-1 {
   display: flex;
   justify-content: space-between;
@@ -57,5 +71,22 @@ input::-webkit-inner-spin-button {
   flex-direction: column;
   align-items: end;
   justify-content: center;
+  margin: 20px;
+}
+
+.section-about-company > h3, .section-how-work > h3, .info > h3  {
+  color: #fff;
+  font-family: "Play", sans-serif;
+  text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 700;
+  margin: 20px;
+}
+
+.section-about-company > p, .info > p {
+  color: #bfc7d1;
+  font-family: "Commissioner", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
   margin: 20px;
 }

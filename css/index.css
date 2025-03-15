@@ -10,20 +10,6 @@ section {
     text-transform: uppercase;
 }
 
-#yellow, .yellow {
-    color: #fff200;
-}
-
-.section-header {
-    background-image: url("https://laserkinetics.ru/img/header-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    gap: 80px;
-    flex-direction: column;
-    height: 1000px;
-}
-
 .section-header-2 {
     display: flex;
     justify-content: space-between;
@@ -105,23 +91,6 @@ section {
 .section-about-company {
     background-color: #090F18;
     height: 700px;
-}
-
-.section-about-company > h3, .section-how-work > h3  {
-    color: #fff;
-    font-family: "Play", sans-serif;
-    text-transform: uppercase;
-    font-size: 44px;
-    font-weight: 700;
-    margin: 20px;
-}
-
-.section-about-company > p {
-    color: #bfc7d1;
-    font-family: "Commissioner", sans-serif;
-    font-size: 18px;
-    line-height: 28px;
-    margin: 20px;
 }
 
 .section-how-work {
