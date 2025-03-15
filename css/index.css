@@ -10,11 +10,7 @@ section {
     text-transform: uppercase;
 }
 
-#yellow {
-    color: #fff200;
-}
-
-.yellow {
+#yellow, .yellow {
     color: #fff200;
 }
 
@@ -26,51 +22,6 @@ section {
     gap: 80px;
     flex-direction: column;
     height: 1000px;
-}
-
-.section-header-1 {
-    display: flex;
-    justify-content: space-between;
-} 
-
-.section-header-1-title {
-    display: flex;
-    font-family: 'Play';
-    align-items: center;
-    gap: 20px;
-    color: #fff;
-    font-size: 18px;
-    margin: 20px;
-}
-
-.section-header-1-nav {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.section-header-1-nav > a {
-    color: #9599A2;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: 'Play';
-}
-
-.section-header-1-nav > a:hover {
-    color: #fff200;
-}
-
-.section-header-1-footer {
-    color: #fff;
-    font-family: 'Play';
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: center;
-    margin: 20px;
 }
 
 .section-header-2 {
