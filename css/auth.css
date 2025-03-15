@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    gap: 30px;
+}
+
+.main > h1 {
+    font-size: 52px;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.main > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Play", sans-serif;
+}
+
+.main > a:hover {
+    opacity: 0.8;
+}
+
+.input {
+    border-radius: 10px;
+    height: 50px;
+    width: 330px;
+    border: none;
+    color: #080F18;
+    font-family: "Play", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.submit-button {
+    background-color: #fff200;
+    border-radius: 10px;
+    height: 50px;
+    width: 204px;
+    color: #080F18;
+    font-family: "Play", sans-serif;
+    font-size: 25px;
+    border: none;
+    font-weight: 700;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
