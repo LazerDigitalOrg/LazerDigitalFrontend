@@ -12,3 +12,12 @@ if (window.location.pathname.split("/")[1] == 'index.html') {
     link = document.getElementById("4");
     link.style.setProperty("color", "#fff200");
 }
+
+axios.get(`https://swapi.dev/api/people/1`)
+  .then(response => {
+    console.log(response.data);
+  })
+  .catch(error => {
+    console.error(error);
+  });
+  
